@@ -14,7 +14,7 @@ public class Lecture {
 
     @Override
     public String toString() {
-        return scienceField.toString() + " " + attendees;
+        return scienceField.toString();
     }
 
     public Lecture(ScienceField lectureName) {
